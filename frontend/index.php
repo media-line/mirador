@@ -10,584 +10,744 @@
 		<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
 		<!-- Шрифты -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Ubuntu:400i&amp;subset=cyrillic" rel="stylesheet">
 
 		<!-- Стили -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+		<link href="css/uikit.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/components/slideshow.min.css" type="text/css" rel="stylesheet" />
 		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 		<link href="css/custom.css" type="text/css" rel="stylesheet" />
 
 		<!-- Скрипты -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/slick.min.js"></script>
+
+		<script type="text/javascript" src="js/uikit.min.js"></script>
+		<script type="text/javascript" src="js/components/slideshow.min.js"></script>
+		<script type="text/javascript" src="js/components/slideset.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 
 		<!-- Title -->
-		<title>medicalbelarus.com</title>
+		<title>mirador.by</title>
 		
 	</head>
 
 	<body>
-        <section class="top_section">
-            <div class="top_section-toolbar d-flex text-contrast text-uppercase text-light text-small">
-                <div class="top_section-toolbar-contacts position-relative">
-                    <a href="#"><span>Контакты</span></a>
-                    <ul class="top_section-toolbar-contacts-list">
-                        <li>
-                            <a class="top_section-toolbar-contacts-list-viber" href="viber://add?number=%2B375291476808"></a>
-                            <a class="top_section-toolbar-contacts-list-whatsapp" href="whatsapp://send?phone=+375291476808"></a>
-                            <a class="underline" href="tel:+375 (29) 111-22-33" data-hover="+375 (29) 111-22-33">+375 (29) 111-22-33</a>
-                        </li>
-                        <li>
-                            <a class="top_section-toolbar-contacts-list-viber" href="viber://add?number=%2B375291476808"></a>
-                            <a class="top_section-toolbar-contacts-list-whatsapp" href="whatsapp://send?phone=+375291476808"></a>
-                            <a class="underline" href="tel:+375 (29) 222-33-44" data-hover="+375 (29) 222-33-44">+375 (29) 222-33-44</a>
-                        </li>
-                        <li><a class="underline" href="mailto:aibolit@medicalbelarus.by" data-hover="aibolit@medicalbelarus.by">aibolit@medicalbelarus.by</a></li>
-                    </ul>
-                </div>
-                <div class="top_section-toolbar-languages position-relative">
-                    <a href="#"><span class="underline" data-hover="Сменить язык">Сменить язык</span></a>
-                    <ul class="top_section-toolbar-languages-list">
-                        <li><a class="underline active" href="#" data-hover="Русский">Русский</a></li>
-                        <li><a class="underline" href="#" data-hover="English">English</a></li>
-                        <li><a class="underline" href="#" data-hover="Swedish">Swedish</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="top_section-nav js-top_section-nav isclose">
-                <a class="top_section-nav-close js-top_section-nav-close text-right d-block" href="#"></a>
-                <div class="top_section-nav-title text-contrast text-center text-light position-relative">
-                    Организовать лечение
-                </div>
-                <ul class="top_section-nav-list text-center text-light text-smaller">
-                    <li class="top_section-nav-list-item top_section-nav-list-item-online"><a href="#"><span>Онлайн-консультация</span></a></li>
-                    <li class="top_section-nav-list-item top_section-nav-list-item-program"><a href="#"><span>Программа лечения</span></a></li>
-                    <li class="top_section-nav-list-item top_section-nav-list-item-docs"><a href="#"><span>Документы для визита в Беларусь</span></a></li>
-                    <li class="top_section-nav-list-item top_section-nav-list-item-address"><a href="#"><span>Нахождение в Беларуси</span></a></li>
-                    <li class="top_section-nav-list-item top_section-nav-list-item-after"><a href="#"><span>Постмедицинское обслуживание</span></a></li>
-                </ul>
-            </div>
-        </section>
         
-        <header class="header position-relative">
-			<div class="header-slider js-slick-slider">
-                <div class="header-slider-item" style="background-image: url(images/slide001.jpg);">
-                    <img src="images/slide001.jpg" alt="">
-                    <div class="header-slider-item-caption">
-                        <div>Беларусь - страна для вашего здоровья!</div>
-                    </div>
-                </div>
-                <div class="header-slider-item" style="background-image: url(images/slide001.jpg);">
-                    <img src="images/slide001.jpg" alt="">
-                    <div class="header-slider-item-caption">
-                        <div>Беларусь - страна для вашего здоровья!</div>
-                    </div>
-                </div>
-                <div class="header-slider-item" style="background-image: url(images/slide001.jpg);">
-                    <img src="images/slide001.jpg" alt="">
-                    <div class="header-slider-item-caption">
-                        <div>Беларусь - страна для вашего здоровья!</div>
-                    </div>
-                </div>
-                
-            </div>
-            
-            <div class="header-headerbar position-absolute">
-                <div class="block_container">
-                
-                    <div class="header-headerbar-wrapper d-flex justify-content-between justify-content-lg-start align-items-center">
-                        <div class="logo">
-                            <a href="/"><img src="images/logo.png" alt=""></a>
-                        </div>
-                    
-                        <nav class="navbar navbar-toggleable-md bg-faded">
-                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </button>
+        <header class="header">
+			<div class="uk-headerbar uk-container uk-container-center">
+				<div class="uk-grid uk-grid-collapse uk-flex-middle">
+					<div class="uk-width-3-10 uk-width-small-2-10 uk-width-medium-1-6 uk-width-large-2-10 uk-width-xlarge-1-6">
+						<div class="uk-logo uk-flex-order-first-xlarge">
+							<a href="/"><img src="images/logo.png" alt="logo"></a>
+						</div>
+					</div>
 
-                            <div class="navbar-wrapper w-100 d-flex flex-column flex-column-reverse flex-md-row flex-wrap flex-lg-nowrap justify-content-lg-between">
-                                <div class="navbar-menu-wrapper d-flex align-items-center w-md-100">
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="main-menu navbar-nav p-0 m-0 w-md-100 d-flex justify-content-between justify-content-lg-start">
-                                        
-                                            <li class="nav-item active parent">
-                                                <a href="#"><span>Почему беларусь?</span></a>
-                                                <ul class="main-menu-submenu">
-                                                    <li class="nav-item"><a href="#">7 причин лечиться в Беларуси</a></li>
-                                                    <li class="nav-item"><a href="#">Качество медицины</a></li>
-                                                    <li class="nav-item"><a href="#">Клиники-партнеры</a></li>
-                                                    <li class="nav-item"><a href="#">Факты о Беларуси</a></li>
-                                                    <li class="nav-item"><a href="#">Обслуживание</a></li>
-                                                </ul>
-                                            </li>
-                                        
-                                            <li class="nav-item parent">
-                                                <a href="#"><span>Организация лечения</span></a>
-                                                <ul class="main-menu-submenu">
-                                                    <li class="nav-item"><a href="#">О нас</a></li>
-                                                    <li class="nav-item"><a href="#">Онлайн-консультация</a></li>
-                                                    <li class="nav-item"><a href="#">Программа лечения</a></li>
-                                                    <li class="nav-item"><a href="#">Документы для визита в Беларусь</a></li>
-                                                    <li class="nav-item"><a href="#">Нахождение в Беларуси</a></li>
-                                                    <li class="nav-item"><a href="#">Постмедицинское обслуживание</a></li>
-                                                </ul>
-                                            </li>
-                                            
-                                            <li class="nav-item parent">
-                                                <a href="#"><span>Медуслуги/цены</span></a>
-                                                <ul class="main-menu-submenu">
-                                                    <li class="nav-item"><a href="#">Стоматология</a></li>
-                                                    <li class="nav-item"><a href="#">Пластическая хирургия</a></li>
-                                                    <li class="nav-item"><a href="#">Диагностика</a></li>
-                                                    <li class="nav-item"><a href="#">Офтальмология</a></li>
-                                                    <li class="nav-item"><a href="#">Санаторное лечение</a></li>
-                                                    <li class="nav-item"><a href="#">Гинекология</a></li>
-                                                    <li class="nav-item"><a href="#">Ортопедия</a></li>
-                                                    <li class="nav-item"><a href="#">Хирургия</a></li>
-                                                    <li class="nav-item"><a href="#">Цены</a></li>
-                                                </ul>
-                                            </li>
-                                            
-                                            <li class="nav-item">
-                                                <a href="#"><span>Отзывы</span></a>
-                                            </li>
-                                        
-                                        </ul>
-                                    </div>
-                                </div>
+					<div class="uk-headerbar-right-holder uk-width-5-10 uk-width-small-7-10 uk-width-medium-4-6 uk-width-large-7-10 uk-width-xlarge-1-6 uk-flex-order-last-xlarge">
+						<div class="uk-headerbar-right">
+							<div class="uk-headerbar-phone uk-text-right">
+								<a class="text-black h5 text-bold" href="+375 (44) 741-24-74">+375(44)741-24-74</a>
+							</div>
+							<div class="uk-headerbar-buttons uk-flex uk-flex-right">
+								<a class="button button-small button-request_call" href="#">Заказать звонок</a>
+								<form class="uk-search form-hidden position-relative">
+									<div class="form-control form-control-search">
+										<input name="search" placeholder="Введите текст для поиска">
+									</div>
+									<button class="button button-small button-search js-button-search"></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					
+					<div class="uk-width-2-10 uk-width-small-1-10 uk-width-medium-1-6 uk-width-large-1-10 uk-width-xlarge-4-6 uk-navbar-holder">
+						<nav class="uk-navbar uk-width-1-1">
+							<ul class="uk-navbar-nav uk-flex uk-flex-space-between uk-width-1-1">
+								<li class="uk-parent" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
+									<a href="#">Каталог</a>
+									<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom" aria-hidden="true" tabindex="">
+										<ul class="uk-nav uk-nav-navbar">
+											<li><a href="#">Двери</a></li>
+											<li><a href="#">Перегородки</a></li>
+											<li><a href="#">Фасады</a></li>
+											<li><a href="#">Экраны на радиатор</a></li>
+										</ul>
+									</div>
+								</li>
 
-                            </div>
-                            
-                        </nav>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="header-link section-link">
-                <div class="block_container">
-                    <a class="section-link-text" href="#">
-                        <span class="underline" data-hover="Популярные медицинские услуги">Популярные медицинские услуги</span>
-                    </a>
-                </div>
-            </div>
+								<li><a href="#">Покупателям</a></li>
+								<li><a href="#">Наши преимущества</a></li>
+								<li class="uk-active"><a href="#">Акции</a></li>
+								<li><a href="#">Как мы работаем</a></li>
+								<li><a href="#">Партнерам</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<button class="offcanvas_button" data-uk-offcanvas="{target:'#offcanvas-right'}">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
 		</header>
 
-        <section class="services_block position-relative">
-            <div class="container-fluid">
-                
-                <div class="row services_block-row-1">
-                
-                    <div class="col-md-6">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-001.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Одномоментная имплантация зубов
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-002.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Увеличение груди
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                </div>
-            
-                <div class="row services_block-row-2">
-                
-                    <div class="col-md-4 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-003.jpg);"></span>
-                            </span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Кератопластика
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                        <span class="services_block-item-content-price-info">
-                                            за 5 дней
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-6">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-004.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Санаторное лечение
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                        <span class="services_block-item-content-price-info">
-                                            за 5 дней
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-005.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Лазерная коррекция зрения
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                </div>
-                
-                <div class="row services_block-row-3">
-                
-                    <div class="col-md-6 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-006.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Диагностика организма
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-007.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Блефаропластика
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-008.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Ринопластика
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-3">
-                        <a href="#" class="services_block-item d-block">
-                        
-                            <span class="services_block-item-image background-cover position-relative d-block" style="background-image: url(images/service-teaser-009.jpg);"></span>
-                            
-                            <span class="services_block-item-content text-contrast h3 d-flex position-absolute justify-content-center align-items-center text-center">
-                                <span class="services_block-item-content-wrap d-inline-block">
-                                    <span class="services_block-item-content-title d-block">
-                                        Замена коленного/тазобедренного сустава
-                                    </span>
-                                    
-                                    <span class="services_block-item-content-price d-inline-block margin-top-small">
-                                        <span class="services_block-item-content-price-label">
-                                            от
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            1000
-                                        </span> 
-                                        <span class="services_block-item-content-price-value">
-                                            &euro;
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="services_block-link section-link">
-                <div class="block_container">
-                    <a class="section-link-text" href="#">
-                        <span class="underline" data-hover="Узнать больше информации о лечении">Узнать больше информации о лечении</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-        
-        <section class="about_block background-cover position-relative" style="background-image: url(images/about-block-bg.jpg);">
-            <div class="block_container about_block-container position-relative">
-            
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="about_block-text_block">
-                                <div class="about_block-text_block-title text-contrast h3">
-                                    О нас
-                                </div>
-                                <div class="about_block-text_block-content text-contrast text-large">
-                                    <p>Мы предоставляем нашим клиентам возможность не только качественно поправить своё здоровье, но и провести время с пользой - познакомиться с Республикой Беларусь. Уверены, что Вы останетесь довольны прекрасным сочетанием "приятного с полезным" по тем ценам, которые сейчас действуют в рамках наших пакетов услуг.</p>
+		<section class="slider position-relative">
+			<div data-uk-slideshow="{autoplay: false, animation: 'fade'}">
+				<ul class="uk-slideshow">
+					<li>
+						<img src="images/slider/slide001.jpg" alt="">
+						<div class="uk-overlay-panel uk-overlay-fade">
+							<div class="uk-container uk-container-center uk-height-1-1 uk-flex uk-flex-middle">
+								<div class="uk-width-medium-1-2">
+									<div class="uk-overlay-panel-content h3 text-dark text-light">
+										<p class="slider-title">МЕЖКОМНАТНЫЕ ДВЕРИ</p>
+										из МДФ от производителя
+									</div>
+									<a class="button button-bordered margin-top-large" href="#"><span>Заказать дверь</span></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><img src="images/slider/slide002.jpg" alt=""></li>
+					<li><img src="images/slider/slide003.jpg" alt=""></li>
+					<li><img src="images/slider/slide004.jpg" alt=""></li>
+				</ul>
+				<div class="uk-dotnav-holder uk-position-absolute">
+					<div class="uk-container uk-container-center">
+						<ul class="uk-dotnav">
+							<li data-uk-slideshow-item="0"></li>
+							<li data-uk-slideshow-item="1"></li>
+							<li data-uk-slideshow-item="2"></li>
+							<li data-uk-slideshow-item="3"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-                                    <p>Компания «Treatment in Belarus» гарантирует полную конфиденциальность
-                                    всей предоставленной Вами информации.</p>
+			<div class="slider-bottom_overlap uk-position-absolute uk-position-bottom-left uk-position-bottom-right">
+				<svg viewBox="0 0 100 4">
+					<polygon class="polygon-top" points="0,0 50,3.3 100,0 100,0.2 50,3.5 0,0.2"></polygon>
+					<polygon class="polygon-bottom" points="0,0.2 50,3.5 100,0.2 100,4 50,4 0,4"></polygon>
+				</svg>
+			</div>
 
-                                    <p>Наш девиз - «Медицина с комфортом!»</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-5">
-                            <div class="about_block-form-wrap d-flex h-100 justify-content-center justify-content-lg-end align-items-center">
-                                <div class="about_block-form">
-                                    <div class="about_block-form-title text-contrast h3 text-center">
-                                        Вы хотите узнать больше информаци?
-                                    </div>
-                                    <div class="about_block-form-button text-center margin-top">
-                                        <a class="button" href="#">
-                                            Обращайтесь к нам
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        
-        <footer class="footer text-contrast">
-            <div class="block_container">
-                <div class="row">
-                <div class="col-md-12 col-lg-10">
-                    <div class="row">
-                    <div class="col-md-12 col-lg-4 col-xl-3">
-                    <div class="footer-contacts d-flex d-lg-block flex-column">
-                        <div class="footer-contacts-title footer-title text-light text-uppercase hidden-md-down">
-                            Контакты
-                        </div> 
-                        <div class="footer-contacts-addresses footer-contacts-item text-small margin-top-medium">
-                            Беларусь, г. Минск, пр-т Независимости, д. 3, оф. 45
-                        </div>
-                        <div class="footer-contacts-phones footer-contacts-item text-small margin-top-medium">
-                            <a class="underline" href="tel:+375 (29) 111-22-33" data-hover="+375 (29) 111-22-33">+375 (29) 111-22-33</a>
-                            <a class="underline" href="tel:+375 (29) 222-33-44" data-hover="+375 (29) 222-33-44">+375 (29) 222-33-44</a>
-                            <a class="underline" href="tel:+375 (17) 123-45-67" data-hover="+375 (17) 123-45-67">+375 (17) 123-45-67</a>
-                        </div>
-                        <div class="footer-contacts-emails footer-contacts-item text-small margin-top-medium">
-                             <a class="underline" href="mailto:aibolit@medicalbelarus.by" data-hover="aibolit@medicalbelarus.by">aibolit@medicalbelarus.by</a>
-                        </div> 
-                        <div class="footer-contacts-social footer-contacts-item margin-top-medium">
-                            <a class="footer-contacts-social-item footer-contacts-social-facebook" href="https://www.facebook.com/" target="_blank"></a>
-                            <a class="footer-contacts-social-item footer-contacts-social-instagram" href="https://www.instagram.com/" target="_blank"></a>
-                        </div>
-                    </div>
-                    </div>
-                
-                    <div class="col-lg-8 col-xl-9 hidden-md-down">
-                    <div class="footer-menu-wrap">
-                        <ul class="footer-menu">
-                            <li>
-                                <a class="underline" href="#" data-hover="Почему беларусь?">Почему беларусь?</a>
-                                <ul class="footer-menu-submenu">
-                                    <li><a class="underline" href="#" data-hover="7 причин лечиться в Беларуси">7 причин лечиться в Беларуси</a></li>
-                                    <li><a class="underline" href="#" data-hover="Качество медицины">Качество медицины</a></li>
-                                    <li><a class="underline" href="#" data-hover="Клиники-партнеры">Клиники-партнеры</a></li>
-                                    <li><a class="underline" href="#" data-hover="Факты о Беларуси">Факты о Беларуси</a></li>
-                                    <li><a class="underline" href="#" data-hover="Обслуживание">Обслуживание</a></li>
-                                </ul>
-                            </li>
-                        
-                            <li>
-                                <a class="underline" href="#" data-hover="Организация лечения">Организация лечения</a>
-                                <ul class="footer-menu-submenu">
-                                    <li><a class="underline" href="#" data-hover="О нас">О нас</a></li>
-                                    <li><a class="underline" href="#" data-hover="Онлайн-консультация">Онлайн-консультация</a></li>
-                                    <li><a class="underline" href="#" data-hover="Программа лечения">Программа лечения</a></li>
-                                    <li><a class="underline" href="#" data-hover="Документы для визита в Беларусь">Документы для визита в Беларусь</a></li>
-                                    <li><a class="underline" href="#" data-hover="Нахождение в Беларуси">Нахождение в Беларуси</a></li>
-                                    <li><a class="underline" href="#" data-hover="Постмедицинское обслуживание">Постмедицинское обслуживание</a></li>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <a class="underline" href="#" data-hover="Медуслуги/цены">Медуслуги/цены</a>
-                                <ul class="footer-menu-submenu">
-                                    <li><a class="underline" href="#" data-hover="Стоматология">Стоматология</a></li>
-                                    <li><a class="underline" href="#" data-hover="Пластическая хирургия">Пластическая хирургия</a></li>
-                                    <li><a class="underline" href="#" data-hover="Диагностика">Диагностика</a></li>
-                                    <li><a class="underline" href="#" data-hover="Офтальмология">Офтальмология</a></li>
-                                    <li><a class="underline" href="#" data-hover="Санаторное лечение">Санаторное лечение</a></li>
-                                    <li><a class="underline" href="#" data-hover="Гинекология">Гинекология</a></li>
-                                    <li><a class="underline" href="#" data-hover="Ортопедия">Ортопедия</a></li>
-                                    <li><a class="underline" href="#" data-hover="Хирургия">Хирургия</a></li>
-                                    <li><a class="underline" href="#" data-hover="Цены">Цены</a></li>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <a class="underline" href="#" data-hover="Отзывы">Отзывы</a>
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-12 col-lg-2">
-                    <div class="footer-logo-wrap">
-                        <a class="footer-logo" href="/"><img src="images/logo.png" alt=""></a>
-                    </div>
-                </div>
-                </div>
-                
-            </div>
-            
-            <div class="footer-medialine_copyrate text-center text-contrast text-light">
-                Разработка сайта: <a class="text-blue underline" href="http://www.medialine.by/" target="_blank" data-hover="Медиа Лайн">Медиа Лайн</a>
-            </div>
+		</section>
+
+		<section class="catalog-block">
+			<div class="uk-container uk-container-center">
+				<div class="page-title-large uk-text-center">Каталог товаров</div>
+
+				<div class="catalog-block-categories uk-flex uk-flex-space-between">
+					<a class="button button-bordered margin-top-large" href="#"><span>Двери</span></a>
+					<a class="button button-bordered margin-top-large" href="#"><span>Перегородки</span></a>
+					<a class="button button-bordered margin-top-large" href="#"><span>Фасады</span></a>
+					<a class="button button-bordered margin-top-large" href="#"><span>Экраны на радиатор</span></a>
+					<a class="button button-bordered margin-top-large" href="#"><span>Домовая резьба</span></a>
+				</div>
+
+				<div class="catalog-block-products_list">
+					<div data-uk-slideset="{small: 2, medium: 4, large: 4}">
+						<div class="uk-slidenav-position position-relative">
+							<ul class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
+								<li>
+									<div class="catalog-block-products_list-item uk-position-relative">
+										<div class="catalog-block-products_list-item-image">
+											<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
+										</div>
+										<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
+											<div class="catalog-block-products_list-item-name text-avenir h6">
+												Ньюдор №15
+											</div>
+											<div class="catalog-block-products_list-item-price">
+												<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+												<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
+											</div>
+										</div>
+
+										<div class="catalog-block-products_list-item-additional margin-top-small">
+											<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Материал:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														массив сосны, МДФ
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Цвет:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														графитовый
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Каркас:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														каркасно-сотовый
+													</span>
+												</div>
+											</div>
+											<div class="catalog-block-products_list-item-button margin-top-medium">
+												<a class="button uk-width-1-1" href="#">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="catalog-block-products_list-item uk-position-relative">
+										<div class="catalog-block-products_list-item-image">
+											<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
+										</div>
+										<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
+											<div class="catalog-block-products_list-item-name text-avenir h6">
+												Ньюдор №15
+											</div>
+											<div class="catalog-block-products_list-item-price">
+												<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+												<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
+											</div>
+										</div>
+
+										<div class="catalog-block-products_list-item-additional margin-top-small">
+											<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Материал:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														массив сосны, МДФ
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Цвет:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														графитовый
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Каркас:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														каркасно-сотовый
+													</span>
+												</div>
+											</div>
+											<div class="catalog-block-products_list-item-button margin-top-medium">
+												<a class="button uk-width-1-1" href="#">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="catalog-block-products_list-item uk-position-relative">
+										<div class="catalog-block-products_list-item-image">
+											<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
+										</div>
+										<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
+											<div class="catalog-block-products_list-item-name text-avenir h6">
+												Ньюдор №15
+											</div>
+											<div class="catalog-block-products_list-item-price">
+												<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+												<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
+											</div>
+										</div>
+
+										<div class="catalog-block-products_list-item-additional margin-top-small">
+											<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Материал:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														массив сосны, МДФ
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Цвет:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														графитовый
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Каркас:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														каркасно-сотовый
+													</span>
+												</div>
+											</div>
+											<div class="catalog-block-products_list-item-button margin-top-medium">
+												<a class="button uk-width-1-1" href="#">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="catalog-block-products_list-item uk-position-relative">
+										<div class="catalog-block-products_list-item-image">
+											<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
+										</div>
+										<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
+											<div class="catalog-block-products_list-item-name text-avenir h6">
+												Ньюдор №15
+											</div>
+											<div class="catalog-block-products_list-item-price">
+												<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+												<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
+											</div>
+										</div>
+
+										<div class="catalog-block-products_list-item-additional margin-top-small">
+											<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Материал:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														массив сосны, МДФ
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Цвет:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														графитовый
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Каркас:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														каркасно-сотовый
+													</span>
+												</div>
+											</div>
+											<div class="catalog-block-products_list-item-button margin-top-medium">
+												<a class="button uk-width-1-1" href="#">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="catalog-block-products_list-item uk-position-relative">
+										<div class="catalog-block-products_list-item-image">
+											<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
+										</div>
+										<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
+											<div class="catalog-block-products_list-item-name text-avenir h6">
+												Ньюдор №15
+											</div>
+											<div class="catalog-block-products_list-item-price">
+												<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+												<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
+											</div>
+										</div>
+
+										<div class="catalog-block-products_list-item-additional margin-top-small">
+											<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Материал:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														массив сосны, МДФ
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Цвет:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														графитовый
+													</span>
+												</div>
+												<div>
+													<span class="catalog-block-products_list-item-params-name text-muted">
+														Каркас:
+													</span>
+													<span class="catalog-block-products_list-item-params-value text-blue">
+														каркасно-сотовый
+													</span>
+												</div>
+											</div>
+											<div class="catalog-block-products_list-item-button margin-top-medium">
+												<a class="button uk-width-1-1" href="#">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+							<ul class="uk-slideset-nav uk-dotnav uk-dotnav-simple uk-flex uk-flex-center">
+								<li data-uk-slideset-item="0" class="uk-active"></li>
+								<li data-uk-slideset-item="1"></li>
+								<li data-uk-slideset-item="2"></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="delivery-block">
+			<div class="uk-container uk-container-center uk-position-relative">
+				<div class="uk-grid uk-grid-collapse">
+					<div class="uk-width-1-2">
+						<div class="delivery-block-text">
+							<div class="delivery-block-subtitle text-contrast h4 text-light">Закажите 5 дверей и получите</div>
+							<div class="delivery-block-title page-title-large text-contrast">Бесплатную доставку</div>
+						</div>
+					</div>
+					<div class="uk-width-1-2">
+						<div class="delivery-block-image uk-height-1-1"><img class="uk-position-bottom-right" src="images/delivery-block-image.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages-block position-relative">
+			<div class="uk-container uk-container-center">
+				<div class="advantages-block-slider position-relative">
+					<div class="position-relative" data-uk-slideshow="{autoplay: false, animation: 'fade'}">
+						<ul class="uk-slideshow">
+							<li>
+
+								<div class="uk-grid">
+									<div class="uk-width-1-2">
+										<div class="advantages-block-slider-left">
+											<div class="advantages-block-slider-title text-blue h4 text-vollkorn">
+												Межкомнатные двери, предоставляемые компанией «Мирадор» - это высококачественный продукт, при производстве которого учитываются все современные тенденции.
+											</div>
+
+											<div class="advantages-block-slider-text text-muted text-medium margin-top-medium">
+												<p>Разнообразные цвета и оригинальные варианты декорирования, которые мы предоставляем нашим клиентам, могут подчеркнуть любой интерьер. Наши двери не теряются на фоне стен, они качественно выделяются, заставляют обратить на себя внимание.</p>
+
+												<p>Наша компания осуществляет индивидуальный подход к каждому из клиентов, предлагая именно то, что ему нужно – продукт с качественной и надежной основой, который идеально впишется в интерьер.</p>
+
+												<p>подчеркивая элегантность, строгость или напыщенность любого помещения.</p>
+											</div>
+										</div>
+									</div>
+									<div class="uk-width-1-2">
+										<div class="advantages-block-slider-right">
+											<div class="advantages-block-slider-right-image uk-position-absolute">
+												<img src="images/advantages/advantages-slide001.png" alt="">
+											</div>
+											<div class="advantages-block-slider-right-title text-contrast page-title">
+												Уникальные решения при производстве
+											</div>
+											<ul class="advantages-block-slider-right-list slider-list margin-top-large">
+												<li>Подсветка</li>
+												<li>Узоры, фигуры</li>
+												<li>Индивидуальный дизайн</li>
+											</ul>
+											<div class="margin-top-large">
+												<a class="button button-large button-bordered" href="#"><span>Спроектировать дверь</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<li>
+
+								<div class="uk-grid">
+									<div class="uk-width-1-2">
+										<div class="advantages-block-slider-left">
+											<div class="advantages-block-slider-title text-blue h4 text-vollkorn">
+												Межкомнатные двери, предоставляемые компанией «Мирадор» - это высококачественный продукт, при производстве которого учитываются все современные тенденции.
+											</div>
+
+											<div class="advantages-block-slider-text text-muted text-medium margin-top-medium">
+												<p>Разнообразные цвета и оригинальные варианты декорирования, которые мы предоставляем нашим клиентам, могут подчеркнуть любой интерьер. Наши двери не теряются на фоне стен, они качественно выделяются, заставляют обратить на себя внимание.</p>
+
+												<p>Наша компания осуществляет индивидуальный подход к каждому из клиентов, предлагая именно то, что ему нужно – продукт с качественной и надежной основой, который идеально впишется в интерьер.</p>
+
+												<p>подчеркивая элегантность, строгость или напыщенность любого помещения.</p>
+											</div>
+										</div>
+									</div>
+									<div class="uk-width-1-2">
+										<div class="advantages-block-slider-right">
+											<div class="advantages-block-slider-right-image uk-position-absolute">
+												<img src="images/advantages/advantages-slide001.png" alt="">
+											</div>
+											<div class="advantages-block-slider-right-title text-contrast page-title">
+												Уникальные решения при производстве
+											</div>
+											<ul class="advantages-block-slider-right-list slider-list margin-top-large">
+												<li>Подсветка</li>
+												<li>Узоры, фигуры</li>
+												<li>Индивидуальный дизайн</li>
+											</ul>
+											<div class="margin-top-large">
+												<a class="button button-large button-bordered" href="#"><span>Спроектировать дверь</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
+						</ul>
+						<div class="uk-dotnav-holder uk-position-absolute">
+							<div class="uk-container uk-container-center">
+								<div class="uk-width-1-2">
+									<ul class="uk-dotnav uk-dotnav-simple uk-dotnav-advantages uk-flex uk-flex-center">
+										<li data-uk-slideshow-item="0"></li>
+										<li data-uk-slideshow-item="1"></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="advantages-block-bg position-absolute">
+					<div class="uk-grid uk-grid-collapse uk-height-1-1">
+						<div class="uk-width-1-2 uk-height-1-1">
+							<div class="advantages-block-bg-middle uk-height-1-1">
+
+							</div>
+						</div>
+
+						<div class="uk-width-1-2">
+							<div class="advantages-block-bg-right">
+								<div class="advantages-block-bg-right-inner">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="dignity-block">
+			<div class="uk-container uk-container-center">
+				<div class="dignity-block-head uk-flex uk-flex-left">
+					<div class="dignity-block-title page-title">
+						Почему стоит обратиться к нам
+					</div>
+					<div class="dignity-block-subtitle text-medium text-muted">
+						Мы производим двери. Мы продаем двери. Мы любим двери.<br>
+						Мы знаем о дверях все. Кратко о том как мы делаем двери.
+					</div>
+				</div>
+
+				<div class="dignity-block-list uk-flex uk-flex-space-between">
+
+					<div class="dignity-block-list-item uk-width-1-5 margin-top-large uk-text-center">
+						<div class="dignity-block-list-item-icon dignity-block-list-item-icon-one"></div>
+
+						<div class="dignity-block-list-item-title margin-top-large text-blue text-vollkorn h4">
+							Организуем производство
+						</div>
+
+						<div class="dignity-block-list-item-text text-medium text-muted margin-top-medium">
+							И исключаем из стоимости
+							цену посредников
+						</div>
+					</div>
+
+					<div class="dignity-block-list-item uk-width-1-5 margin-top-large uk-text-center">
+						<div class="dignity-block-list-item-icon dignity-block-list-item-icon-two"></div>
+
+						<div class="dignity-block-list-item-title margin-top-large text-blue text-vollkorn h4">
+							Выбираем материалы
+						</div>
+
+						<div class="dignity-block-list-item-text text-medium text-muted margin-top-medium">
+							Выбираем качественные
+							материалы и фурнитуру
+						</div>
+					</div>
+
+					<div class="dignity-block-list-item uk-width-1-5 margin-top-large uk-text-center">
+						<div class="dignity-block-list-item-icon dignity-block-list-item-icon-three"></div>
+
+						<div class="dignity-block-list-item-title margin-top-large text-blue text-vollkorn h4">
+							Нанимаем профессионалов
+						</div>
+
+						<div class="dignity-block-list-item-text text-medium text-muted margin-top-medium">
+							На производстве работает
+							команда квалифицированных
+							специалистов
+						</div>
+					</div>
+
+					<div class="dignity-block-list-item uk-width-1-5 margin-top-large uk-text-center">
+						<div class="dignity-block-list-item-icon dignity-block-list-item-icon-four"></div>
+
+						<div class="dignity-block-list-item-title margin-top-large text-blue text-vollkorn h4">
+							Заботимся о<br> клиенте
+						</div>
+
+						<div class="dignity-block-list-item-text text-medium text-muted margin-top-medium">
+							Предоставляем вам
+							лучший сервис и качество
+							на каждом этапе
+						</div>
+					</div>
+
+					<div class="dignity-block-list-item uk-width-1-5 margin-top-large uk-text-center">
+						<div class="dignity-block-list-item-icon dignity-block-list-item-icon-five"></div>
+
+						<div class="dignity-block-list-item-title margin-top-large text-blue text-vollkorn h4">
+							Даем гарантию<br>
+							6 месяцев
+						</div>
+
+						<div class="dignity-block-list-item-text text-medium text-muted margin-top-medium">
+							Остаемся с вами
+							и после установки двери
+						</div>
+					</div>
+				</div>
+				<div class="dignity-block-description">
+					<div class="dignity-block-description-title page-title">
+						Больше, чем магазин дверей
+					</div>
+
+					<div class="dignity-block-description-text text-medium margin-top-large">
+						<div class="uk-grid">
+							<div class="uk-width-1-2">
+								<p>Для покупателей mirador.by – это возможность создать неповторимый интерьер квартиры, сделать обстановку дома уютной, пребывание гостей в офисе – комфортабельным. А для нас, команды mirador, двери – это объект искреннего интереса и увлечения. Поэтому мы неизменно растем и предлагаем реализовать новые возможности на рынке межкомнатных дверей.</p>
+
+								<p>Наша команда предлагает вам межкомнатные двери с авторским дизайном. Мы предлагаем двери, опираясь на любые ваши пожелания. Цвет двери, ее рисунок ограничены только вашей фантазией. Мы постоянно развиваем собственные навыки и возможности производства. На сегодняшний день mirador.by – это фабрика полного цикла, выпускающая двери отличного качества. Но мы и дальше будем поднимать эту планку,</p>
+							</div>
+
+							<div class="uk-width-1-2">
+								<p>улучшать материалы, модернизировать производство, чтобы всегда отвечать самым высоким стандартам.</p>
+
+								<p>Не меньше чем о дизайне, мы думаем и о качестве дверей. Поэтому весь МДФ, из которого производятся двери, окрашен. Окраска приводит к практически полному устранению испарения связующих веществ. И материал становится безопаснее, чем натуральное дерево, из которого испаряются смолы.  Окрашенные, экологичные, с качественной фурнитурой двери от miradoor оставили довольными уже более 2 000 покупателей. Осчастливят и вас. Мы в этом уверены!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+        <footer class="footer">
+			<div class="footer-nav">
+				<div class="uk-container uk-container-center">
+					<div class="uk-grid uk-grid-small uk-flex-middle">
+						<div class="uk-width-1-6 uk-width-large-1-10 uk-width-xlarge-1-6">
+							<div class="uk-logo">
+								<a href="/"><img src="images/logo.png" alt="logo"></a>
+							</div>
+						</div>
+
+						<div class="uk-width-4-6 uk-width-large-7-10 uk-width-xlarge-4-6">
+							<div class="uk-navbar uk-width-1-1">
+								<ul class="uk-navbar-nav uk-flex uk-flex-space-between uk-width-1-1">
+									<li class="uk-parent" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
+										<a href="#">Каталог</a>
+										<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom" aria-hidden="true" tabindex="">
+											<ul class="uk-nav uk-nav-navbar">
+												<li><a href="#">Покупателям</a></li>
+												<li><a href="#">Покупателям</a></li>
+												<li><a href="#">Покупателям</a></li>
+											</ul>
+										</div>
+									</li>
+
+									<li><a href="#">Покупателям</a></li>
+									<li><a href="#">Наши преимущества</a></li>
+									<li class="uk-active"><a href="#">Акции</a></li>
+									<li><a href="#">Как мы работаем</a></li>
+									<li><a href="#">Партнерам</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="uk-width-1-6 uk-width-large-2-10 uk-width-xlarge-1-6">
+							<div class="uk-footer-nav-right">
+								<div class="uk-footer-nav-phone uk-text-right">
+									<a class="text-black h5 text-bold" href="+375 (44) 741-24-74">+375(44)741-24-74</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="uk-container uk-container-center">
+					<div class="uk-grid">
+						<div class="uk-width-3-4 text-blue_light">
+							© <? echo date('Y');?>, ООО «Мирадор»
+						</div>
+						<div class="uk-width-1-4">
+							<div class="medialine-copyrate uk-text-right text-blue_light">
+								Разработано - <a class="text-blue_light" href="http://www.medialine.by/" target="_blank">Медиа Лайн</a>
+								<?/*Разработано - <a class="text-contrast" href="http://www.medialine.by/" target="_blank"<? if ($APPLICATION->GetCurPage(false) !== '/'){ echo ' rel="nofollow"'; } ?>>Медиа Лайн</a>*/?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
         </footer>
-		
+
+		<div id="offcanvas-right" class="uk-offcanvas">
+			<div class="uk-offcanvas-bar">
+				<a href="#" onclick="jQuery.UIkit.offcanvas.hide();" class="uk-close uk-offcanvas-close" data-uk-offcanvas=""></a>
+
+				<form class="uk-search uk-search-offcanvas">
+					<div class="uk-flex uk-flex-space-between">
+						<div class="form-control uk-width-1-1">
+							<input name="search" type="text" placeholder="Введите текст для поиска">
+						</div>
+						<button class="button button-small button-search"></button>
+					</div>
+				</form>
+
+				<ul class="uk-nav uk-nav-offcanvas margin-top-medium" data-uk-nav>
+
+					<li class="uk-parent">
+						<a href="#">Каталог</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#">Двери</a></li>
+							<li><a href="#">Перегородки</a></li>
+							<li><a href="#">Фасады</a></li>
+							<li><a href="#">Экраны на радиатор</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Покупателям</a></li>
+					<li><a href="#">Наши преимущества</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Как мы работаем</a></li>
+					<li><a href="#">Партнерам</a></li>
+					<li><a href="#">Контакты</a></li>
+
+				</ul>
+
+
+			</div>
+		</div>
+
 	</body>
 
 </html>
