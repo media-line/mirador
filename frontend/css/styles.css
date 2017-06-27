@@ -284,6 +284,7 @@ sub, sup {
 	border-radius: 4px;
 	text-transform: uppercase;
 	vertical-align: top;
+	box-sizing: border-box;
     transition: all 0.3s ease;
 }
 .button-small{
@@ -476,13 +477,14 @@ form input + button {
 	right: 24px;
 	width: 245px;
 	z-index: 1;
-	transition: width, opacity 0.3s ease;
+	opacity: 1;
+	transition: opacity 0.3s ease;
 }
 .form-hidden .form-control-search{
 	z-index: -1;
 	visibility: hidden;
-	opacity: 0;
 	width: 0;
+	opacity: 0;
 }
 .form-control-search input{
 	height: 26px;
@@ -643,7 +645,7 @@ form input + button {
   Блок "Каталог" / Catalog block
 ======================================================================== */
 .catalog-block{
-    padding: 60px 0 160px;
+    padding: 60px 0 220px;
 	background-image: url(../images/products-block-bg.jpg);
 	background-size: auto 180px;
 	background-position: left bottom;
@@ -658,12 +660,27 @@ form input + button {
 .catalog-block-products_list-slideset{
 	z-index: 2;
 }
+.catalog-block-products_list-slideset li{
+
+}
 .catalog-block-products_list-item{
 	margin-top: 40px;
-	padding: 20px 30px 20px;
+	top: 0;
+	left: 0;
+	min-height: 360px;
+	width: 285px;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+.catalog-block-products_list-item-holder{
+	padding: 20px 30px 0;
 	transition: all 0.2s ease;
 }
-.catalog-block-products_list-item:hover{
+.catalog-block-products_list-item-holder.uk-hover{
 	box-shadow: 0px 0px 16px 0px rgba(34,34,34,0.12);
 	background: #fff;
 }
@@ -671,17 +688,24 @@ form input + button {
 	max-height: 295px;
 	overflow: hidden;
 }
+.catalog-block-products_list-item-image img{
+	min-height: 295px;
+	max-height: 295px;
+}
 .catalog-block-products_list-item-name{
 	max-width: 130px;
 }
 .catalog-block-products_list-item-additional{
+	height: 0;
 	visibility: hidden;
 	opacity: 0;
+	padding-bottom: 20px;
 	transition: opacity 0.3s ease;
 }
-.catalog-block-products_list-item:hover .catalog-block-products_list-item-additional{
+.catalog-block-products_list-item-additional.uk-hover{
 	visibility: visible;
 	opacity: 1;
+	height: auto;
 }
 .catalog-block-products_list-item-params{
 	border-top: 1px solid #f4f4f4;
@@ -710,15 +734,17 @@ form input + button {
 .delivery-block-text{
 	padding: 50px 0;
 }
+.delivery-block-image img{
+	max-width: 100%;
+}
 /* ========================================================================
   Блок "Преимущества" (слайдер) / Advantages block
 ======================================================================== */
 .advantages-block{
-	padding: 60px 0 20px;
+	padding: 60px 0 80px;
 	overflow: hidden;
 }
 .advantages-block-slider{
-	padding-bottom: 40px;
 	z-index: 2;
 }
 .advantages-block-slider .uk-slideshow{
@@ -726,6 +752,8 @@ form input + button {
 }
 .advantages-block-slider-left{
 	padding-right: 50px;
+	box-sizing: border-box;
+	position: relative;
 }
 .advantages-block:before{
 	content: "";
@@ -734,7 +762,7 @@ form input + button {
 	left: 0;
 	right: 0;
 	box-shadow: inset 0px 120px 120px -120px rgba(131,131,131,1);
-	z-index: 2;
+	z-index: 3;
 	height: 125px;
 }
 .advantages-block-bg{
@@ -746,16 +774,10 @@ form input + button {
 }
 .advantages-block-bg-right{
 	padding-left: 95px;
-	position: relative;
-}
-.advantages-block-bg-right:before{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: -72px;
-	bottom: 0;
-	border-bottom: 500px solid #5a75bf;
-	border-left: 167px solid transparent;
+	left: 0;
+	top: -60px;
+	bottom: -80px;
+	right: -395px;
 }
 .advantages-block-bg-right:after{
 	content: "";
@@ -769,22 +791,43 @@ form input + button {
 	height: 177px;
 }
 .advantages-block-bg-right-inner{
-	background: url(../images/advantages-bg-right.png) no-repeat right bottom, #5a75bf;
-	height: 500px;
+	background: #5a75bf;
+	z-index: 2;
+	position: relative;
+}
+.advantages-block-bg-right-triangle{
+	position: absolute;
+	fill: #5a75bf;
+	top: -60px;
+	bottom: -80px;
+	left: -187px;
+}
+.advantages-block-bg-right-inner-bg{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 381px;
+	background: url(../images/advantages-bg-right.png) no-repeat right bottom;
 }
 .advantages-block-slider .uk-dotnav-holder{
-	bottom: 50px;
+	bottom: -10px;
+}
+.uk-dotnav-holder-mobile{
+	bottom: 25px !important;
+	display: none;
 }
 .uk-dotnav-advantages{
 	padding-right: 130px;
 }
 .advantages-block-slider-right{
 	padding: 15px 0 20px 105px;
-	height: 405px;
+	/*height: 405px;*/
+	z-index: 3;
+	box-sizing: border-box;
 }
 .advantages-block-slider-right-image{
 	right: -180px;
-	bottom: 0;
+	bottom: -80px;
 }
 .slider-list{
 	list-style: none;
@@ -840,6 +883,11 @@ form input + button {
 	width: 140px;
 	height: 140px;
 	background: #fff;
+	transition: all 0.3s ease;
+}
+.dignity-block-list-item:hover .dignity-block-list-item-icon{
+	background: #90a7e7;
+	color: #fff;
 }
 .dignity-block-list-item-icon:after{
 	position: absolute;
@@ -880,7 +928,10 @@ form input + button {
 	padding: 20px 0;
 }
 .footer-bottom{
-	padding: 25px 0;
+	padding: 25px 0 10px;
+}
+.medialine-copyrate{
+	text-align: right;
 }
 .medialine-copyrate a{
 	border-bottom: 1px solid #4e68b1;
@@ -891,6 +942,11 @@ form input + button {
 /* ========================================================================
   Медиа запросы / Media queries
 ======================================================================== */
+@media (min-width: 1500px){
+	.slider-bottom_overlap{
+		bottom: -30px;
+	}
+}
 @media (min-width: 1220px){
 	.uk-container {
 		max-width: 1210px;
@@ -899,6 +955,23 @@ form input + button {
 		padding-right: 30px;
 	}
 	.offcanvas_button{
+		display: none;
+	}
+	.slider-bottom_overlap{
+		bottom: -40px;
+	}
+}
+@media (min-width: 960px){
+	.advantages-block-slider-grid,
+	.advantages-block-slider-right-holder,
+	.advantages-block-slider-left-holder,
+	.advantages-block-slider-right,
+	.advantages-block-slider-left{
+		height: 100%;
+	}
+}
+@media (max-width: 1519px){
+	.advantages-block-slider-right-image{
 		display: none;
 	}
 }
@@ -923,10 +996,85 @@ form input + button {
 	.uk-headerbar-buttons{
 		margin-left: 20px
 	}
+	.catalog-block-categories-button span{
+		padding: 0 20px;
+	}
+	.advantages-block-bg-right-triangle {
+		left: -136px;
+	}
+	.dignity-block-head {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 983px){
+	.advantages-block-bg-right-triangle {
+		left: -133px;
+	}
+}
+@media (max-width: 970px){
+	.advantages-block-bg-right-triangle {
+		left: -130px;
+	}
 }
 @media (max-width: 959px){
 	.uk-navbar{
 		padding-left: 0;
+	}
+	.delivery-block-text{
+		padding: 30px 0;
+	}
+	.advantages-block{
+		padding-bottom: 0;
+	}
+	.advantages-block-bg-right:after,
+	.advantages-block-bg-right-triangle{
+		display: none;
+	}
+	.advantages-block-bg-right{
+		padding-left: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: -35px;
+	}
+	.advantages-block-slider-text{
+		padding-bottom: 50px;
+	}
+	.advantages-block-slider-right{
+		padding: 30px 25px 45px 0px;
+		width: 70%;
+	}
+	.advantages-block-slider-right-image {
+		display: block;
+		bottom: 0;
+		right: -200px;
+	}
+	.advantages-block-slider-right-image img{
+		max-height: 100%;
+	}
+	.uk-dotnav-holder{
+		display: none;
+	}
+	.uk-dotnav-holder-mobile{
+		display: block;
+	}
+	.uk-dotnav-advantages {
+		padding-right: 0;
+	}
+	.dignity-block-list{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.dignity-block-list-item {
+		min-width: 33.33%;
+	}
+}
+@media (max-width: 899px){
+	.catalog-block-categories{
+		flex-wrap: wrap;
+	}
+	.catalog-block-categories{
+		padding: 0 20px;
 	}
 }
 @media (max-width: 767px){
@@ -936,10 +1084,91 @@ form input + button {
 	.uk-headerbar-buttons{
 		display: none;
 	}
+	.slider-title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.catalog-block-categories{
+		padding: 0;
+	}
+	.catalog-block-categories-button{
+		width: 45%;
+	}
+	.catalog-block-categories-button:last-child{
+		width: 100%;
+	}
+	.slider-bottom_overlap{
+		bottom: 10px;
+	}
+	.catalog-block-products_list-item-holder{
+		padding: 20px 15px 0;
+	}
+	.delivery-block-text{
+		padding: 20px 0;
+	}
+	.delivery-block-image-holder{
+		display: none;
+	}
+}
+@media (max-width: 659px){
+	.advantages-block-slider-right{
+		width: 100%;
+	}
+	.advantages-block-slider-right-image {
+		display: none;
+	}
+}
+@media (max-width: 543px){
+	.catalog-block-categories{
+		justify-content: center;
+	}
+	.catalog-block-categories-button{
+		width: 48%;
+	}
+	.catalog-block-categories-button span{
+		padding: 0 20px;
+	}
+	.page-title-large{
+		font-size: 32px;
+		line-height: 44px;
+	}
+	.dignity-block-list-item {
+		min-width: 50%;
+	}
 }
 @media (max-width: 479px){
-	.uk-headerbar-right{
+	.uk-headerbar-right,
+	.uk-footer-nav-right{
 		display: none;
+	}
+	.uk-overlay-panel{
+		padding: 0;
+	}
+	.slider-title {
+		font-size: 27px;
+		line-height: 32px;
+	}
+	.catalog-block-categories-button{
+		width: 100%;
+	}
+	.catalog-block-categories-button span{
+		padding: 0 20px;
+	}
+	.catalog-block-products_list-item-holder {
+		padding: 20px 30px 0;
+	}
+	.advantages-block-slider-right .button{
+		width: 100%;
+	}
+	.advantages-block-slider-right .button span{
+		padding: 0 20px;
+	}
+	.dignity-block-list-item {
+		min-width: 100%;
+	}
+	.footer-bottom,
+	.medialine-copyrate{
+		text-align: center;
 	}
 }
 
