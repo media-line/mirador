@@ -94,7 +94,7 @@
 		</header>
 
 		<section class="slider position-relative">
-			<div data-uk-slideshow="{autoplay: false, animation: 'fade'}">
+			<div data-uk-slideshow="{autoplay: true, animation: 'fade'}">
 				<ul class="uk-slideshow">
 					<li>
 						<img src="images/slider/slide001.jpg" alt="">
@@ -147,7 +147,7 @@
 					<a class="catalog-block-categories-button button button-bordered margin-top-large" href="#"><span>Домовая резьба</span></a>
 				</div>
 
-				<div class="catalog-block-products_list">
+				<div class="catalog-block-products_list product_list">
 					<div data-uk-slideset="{default: 1, small: 2, medium: 3, large: 3, xlarge: 4}">
 						<div class="uk-slidenav-position uk-position-relative">
 							<ul class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
@@ -428,14 +428,14 @@
 		<section class="delivery-block">
 			<div class="uk-container uk-container-center uk-position-relative">
 				<div class="uk-grid uk-grid-collapse">
-					<div class="uk-width-1-1 uk-width-small-4-5 uk-width-medium-1-2">
+					<div class="delivery-block-text-holder uk-width-1-1 uk-width-small-3-5 uk-width-medium-1-2">
 						<div class="delivery-block-text">
 							<div class="delivery-block-subtitle text-contrast h4 text-light">Закажите 5 дверей и получите</div>
 							<div class="delivery-block-title page-title-large text-contrast">Бесплатную доставку</div>
 						</div>
 					</div>
-					<div class="delivery-block-image-holder uk-width-1-1  uk-width-small-1-5 uk-width-medium-1-2">
-						<div class="delivery-block-image uk-height-1-1 position-relative"><img class="uk-position-bottom-right uk-position-bottom-left" src="images/delivery-block-image.png" alt=""></div>
+					<div class="delivery-block-image-holder uk-width-1-1 uk-width-small-2-5 uk-width-medium-1-2">
+						<div class="delivery-block-image position-relative uk-height-1-1"><img class="uk-position-bottom-right uk-position-bottom-left" src="images/delivery-block-image.png" alt=""></div>
 					</div>
 				</div>
 			</div>
@@ -497,7 +497,7 @@
 											</div>
 										</div>
 
-										<svg class="advantages-block-bg-right-triangle" viewBox="0 0 10 20" class="uk-position-absolute">
+										<svg class="advantages-block-bg-right-triangle uk-position-absolute" viewBox="0 0 10 20">
 											<polygon points="5.1,0 5.2,0 5.2,15 0.1,15"></polygon>
 										</svg>
 
@@ -561,7 +561,7 @@
 											</div>
 										</div>
 
-										<svg class="advantages-block-bg-right-triangle" viewBox="0 0 10 20" class="uk-position-absolute">
+										<svg class="advantages-block-bg-right-triangle uk-position-absolute" viewBox="0 0 10 20">
 											<polygon points="5.1,0 5.2,0 5.2,15 0.1,15"></polygon>
 										</svg>
 
@@ -613,7 +613,7 @@
 											</div>
 										</div>
 
-										<svg class="advantages-block-bg-right-triangle" viewBox="0 0 10 20" class="uk-position-absolute">
+										<svg class="advantages-block-bg-right-triangle uk-position-absolute" viewBox="0 0 10 20">
 											<polygon points="5.1,0 5.2,0 5.2,15 0.1,15"></polygon>
 										</svg>
 

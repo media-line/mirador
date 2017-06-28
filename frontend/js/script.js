@@ -19,9 +19,9 @@ jQuery(function($) {
         }
 
         //Наведение на превью товаров
-        if($('div').hasClass('catalog-block-products_list')){
+        if($('div').hasClass('product_list')){
+            console.log('asad');
             $('.catalog-block-products_list-item-holder').hover(function (){
-                //$(this).closest('.catalog-block-products_list-item').addClass('uk-hover');
                 $(this).addClass('uk-hover');
                 $(this).find('.catalog-block-products_list-item-additional').addClass('uk-hover');
             });
@@ -31,6 +31,8 @@ jQuery(function($) {
             });
         }
 
+
+        
     });
 
 });
