@@ -18,9 +18,30 @@ jQuery(function($) {
             });
         }
 
+        //Наведение на превью категорий
+        if($('div').hasClass('category_list')){
+            $('.category_list-item').hover(function (){
+                $(this).addClass('uk-hover');
+                $(this).find('.category_list-item-additional').addClass('uk-hover');
+        });
+            $('.category_list-item').mouseleave(function (){
+                $(this).removeClass('uk-hover');
+                $(this).find('.category_list-item-additional').removeClass('uk-hover');
+            });
+        }
+
+        //Фикс шиирны блока описания товара
+        if($('div').hasClass('product_full-desctription-content')) {
+            var productDesc = $('.product_full-desctription-content');
+
+            productFullDescWidthHandler(productDesc);
+            $(window).resize(function(){
+                productFullDescWidthHandler(productDesc);
+            });
+        }
+
         //Наведение на превью товаров
-        if($('div').hasClass('product_list')){
-            console.log('asad');
+        /*if($('div').hasClass('product_list')){
             $('.catalog-block-products_list-item-holder').hover(function (){
                 $(this).addClass('uk-hover');
                 $(this).find('.catalog-block-products_list-item-additional').addClass('uk-hover');
@@ -29,7 +50,7 @@ jQuery(function($) {
                 $(this).removeClass('uk-hover');
                 $(this).find('.catalog-block-products_list-item-additional').removeClass('uk-hover');
             });
-        }
+        }*/
 
 
         
@@ -68,5 +89,41 @@ $(window).on('load', function() {
             animation: 'scale'
         });
     }
+
+
+    /*if($('div').hasClass('category_list')){
+        $('.category_list-item').hover(function (){
+            $(this).addClass('uk-hover');
+            $(this).find('.category_list-item-additional').addClass('uk-hover');
+            //var childHeight = $(this).find('.category_list-item-holder').height();
+            //var childHeight = $(this).find('.category_list-item-holder').get(0).scrollHeight;
+           // $(this).height(childHeight);
+        });
+        $('.category_list-item').mouseleave(function (){
+           // $(this).removeAttr('style', '');
+            $(this).removeClass('uk-hover');
+            $(this).find('.category_list-item-additional').removeClass('uk-hover');
+        });
+    }*/
 });
 
+UIkit.on('afterready.uk.dom', function () {
+    UIkit.$('.product_full-images-main').off('swipeRight swipeLeft');
+});
+
+function productFullDescWidthHandler(element) {
+
+    var windowWidth = $(window).width();
+
+    var offsetLeft = element.offset().left;
+    var offsetRight = windowWidth - element.offset().left - element.width();
+
+    element.css({
+        'margin-left': -offsetLeft,
+        'padding-left': offsetLeft,
+        'margin-right': -offsetRight,
+        'padding-right': offsetRight
+    });
+
+
+}

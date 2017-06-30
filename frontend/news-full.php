@@ -26,6 +26,10 @@
 		<script type="text/javascript" src="js/components/sticky.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 
+		<!--[if lte IE 10]>
+			<script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
+		<![endif]-->
+
 		<!-- Title -->
 		<title>mirador.by</title>
 		
@@ -133,11 +137,11 @@
 							</div>
 						</div>
 						<div class="uk-width-1-1 uk-width-medium-1-10">
-							<div class="page-social-bar uk-text-right margin-top-medium uk-height-1-1">
+							<div class="page-social-bar margin-top-medium uk-height-1-1">
 								<div class="page-social-bar-sticky" data-uk-sticky="top:40, media:768, boundary:true">
-									<a href="#">
-										<img src="images/socials.jpg" alt="">
-									</a>
+									<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="facebook,twitter,vkontakte,odnoklassniki,gplus,lj" data-bare></div>
 								</div>
 							</div>
 

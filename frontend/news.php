@@ -24,6 +24,10 @@
 		<script type="text/javascript" src="js/uikit.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 
+		<!--[if lte IE 10]>
+			<script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
+		<![endif]-->
+
 		<!-- Title -->
 		<title>mirador.by</title>
 		

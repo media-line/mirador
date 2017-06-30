@@ -24,6 +24,10 @@
 		<script type="text/javascript" src="js/uikit.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 
+		<!--[if lte IE 10]>
+			<script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
+		<![endif]-->
+
 		<!-- Title -->
 		<title>mirador.by</title>
 		
@@ -121,700 +125,292 @@
 				<div class="uk-container uk-container-center">
 					<div class="product_list uk-grid">
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
-									</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
 								</div>
-							</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product001.jpg);">
+									<img src="images/catalog/product001.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
+									</div>
+								</div>	
+
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product002.jpg" alt="product002"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product002.jpg);">
+									<img src="images/catalog/product002.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product003.jpg" alt="product003"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product003.jpg);">
+									<img src="images/catalog/product003.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product004.jpg" alt="product004"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product004.jpg);">
+									<img src="images/catalog/product004.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product001.jpg);">
+									<img src="images/catalog/product001.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
-							</div>
+
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product002.jpg" alt="product002"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product002.jpg);">
+									<img src="images/catalog/product002.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product003.jpg" alt="product003"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product003.jpg);">
+									<img src="images/catalog/product003.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product004.jpg" alt="product004"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product004.jpg);">
+									<img src="images/catalog/product004.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product001.jpg" alt="product001"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product001.jpg);">
+									<img src="images/catalog/product001.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
-							</div>
+
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product002.jpg" alt="product002"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product002.jpg);">
+									<img src="images/catalog/product002.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product003.jpg" alt="product003"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product003.jpg);">
+									<img src="images/catalog/product003.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
-						<div class="uk-width-1-1 uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4
-						margin-top-30">
-							<div class="catalog-block-products_list-slideset uk-grid uk-grid-collapse uk-slideset position-relative">
-								<div>
-									<div class="catalog-block-products_list-item uk-position-relative">
-										<div class="catalog-block-products_list-item-holder uk-position-absolute">
-											<div class="catalog-block-products_list-item-image">
-												<a href="#"><img src="images/catalog/product004.jpg" alt="product004"></a>
-											</div>
-											<div class="catalog-block-products_list-item-info uk-flex uk-flex-space-between text-blue">
-												<div class="catalog-block-products_list-item-name text-avenir h6">
-													Ньюдор №15
-												</div>
-												<div class="catalog-block-products_list-item-price">
-													<span class="catalog-block-products_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
-													<span class="catalog-block-products_list-item-price-currency text-avenir h5">руб.</span>
-												</div>
-											</div>
-
-
-											<div class="catalog-block-products_list-item-additional margin-top-small">
-												<div class="catalog-block-products_list-item-params text-medium text-avenir text-semibold">
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Материал:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															массив сосны, МДФ
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Цвет:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															графитовый
-														</span>
-													</div>
-													<div>
-														<span class="catalog-block-products_list-item-params-name text-muted">
-															Каркас:
-														</span>
-														<span class="catalog-block-products_list-item-params-value text-blue">
-															каркасно-сотовый
-														</span>
-													</div>
-												</div>
-												<div class="catalog-block-products_list-item-button margin-top-medium">
-													<a class="button uk-width-1-1" href="#">Подробнее</a>
-												</div>
-											</div>
-										</div>
+						<div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-3 uk-width-xlarge-1-4 margin-top-30">
+							<a class="product_list-item position-relative uk-display-block">
+								<div class="product_list-item-border">
+									<span class="top"></span>
+									<span class="right"></span>
+									<span class="bottom"></span>
+									<span class="left"></span>
+								</div>
+								<div class="product_list-item-image uk-cover-background" style="background-image: url(images/catalog/product004.jpg);">
+									<img src="images/catalog/product004.jpg" alt="product001">
+								</div>
+								<div class="product_list-item-info uk-flex uk-flex-space-between margin-top-medium">
+									<div class="product_list-item-name text-avenir h6">
+										Ньюдор №15
+									</div>
+									<div class="product_list-item-price">
+										<span class="product_list-item-price-value text-avenir-bold h4">220<sup>00</sup></span>
+										<span class="product_list-item-price-currency text-avenir h5">руб.</span>
 									</div>
 								</div>
 
-
-							</div>
+							</a>
 						</div>
 
 						
